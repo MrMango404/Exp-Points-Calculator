@@ -8,8 +8,8 @@
 
 // By MrMango @ mcdchk.net
 
-var x = args[0];
-var y = args[1];
+var x = Number(args[0]);
+var y = Number(args[1]);
 function levelstopoints() {
     	if (x !== y && x < y) {
             if (x <= 16) {
