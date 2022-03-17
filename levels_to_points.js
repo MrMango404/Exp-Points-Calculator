@@ -1,4 +1,5 @@
 // A script return how many experience points are required for your leveling up from your current experience level to the target level.
+// /plugins/PlaceholderAPI/javascripts/levelstopoints.js
 
 // %javascript_levelstopoints_[x],[y]%
 // x = Current Level.
