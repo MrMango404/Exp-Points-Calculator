@@ -11,7 +11,7 @@
 var x = Number(args[0]);  // Input of Current Level.
 var y = Number(args[1]);  // Input of Target Level.
 function leveltopoints() {
-    	if (x!==y && x<y && x>0 && y>=1) {
+    	if (x!==y && x<y && x>=0 && y>=1) {
             if (x <= 16) {
         		var x1 = Math.pow(x, 2) + 6 * x;
     		} else if (x >= 17 && x <= 31) {
