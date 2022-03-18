@@ -29,14 +29,14 @@ function leveltopoints() {
         	} else if (y >= 32) {
         		var y1 = 4.5 * Math.pow(y, 2) - 162.5 * y + 2220;
         	} else {
-                return "y1 error..."  //d ebug msg
+                return "y1 error..."  // debug msg
             }
             
             return (y1 - x1);  // Output result as number.
             //return "Leveling up from &nlevel " + x + "&f to &nlevel " + y + "&f require total of &n" + (y1 - x1) + " exp points!";  // Output result as chat message.
             
             } else {
-                return "Error... Current level can not equal, more than or a negative target level.";
+                return "Error... Current level can not be a negative nubmer, equal and more than target level.";
         }
     }
 
